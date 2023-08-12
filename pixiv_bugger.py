@@ -7,7 +7,6 @@ import time
 from enum import Enum
 import tkinter # 窗口界面 后续开发
 
-
 def title_process(title):
     '''
     负责处理标题信息中的符号
@@ -498,12 +497,11 @@ class Pixiv_bugger():
 # login_id = '1054897561@qq.com'
 # password = '200443jhd'
 
-# with open('./readme.txt', 'r',encoding='utf-8')as f:
-#     readme = f.readlines()
-#     for line in readme:
-#         print(line)
-#         time.sleep(3)
-
+with open('./readme.txt', 'r',encoding='utf-8')as f:
+    readme = f.readlines()
+    for line in readme:
+        print(line)
+        time.sleep(3)
 
 while True:
     tags = input("请输入女♂孩子的名字（≧▽≦）:")
